@@ -72,7 +72,6 @@ import * as React from 'react';
 import {IS_APPLE} from '../../shared/environment';
 
 import useModal from '../../hooks/useModal';
-import catTypingGif from '../../images/cat-typing.gif';
 import {$createStickyNode} from '../../nodes/StickyNode';
 import ColorPicker from '../../ui/ColorPicker';
 import DropDown, {DropDownItem} from '../../ui/DropDown';
@@ -825,7 +824,7 @@ export default function ToolbarPlugin(): JSX.Element {
               <i className="icon image" />
               <span className="text">Image</span>
             </DropDownItem>
-            <DropDownItem
+            {/* <DropDownItem
               onClick={() =>
                 insertGifOnClick({
                   altText: 'Cat typing on a laptop',
@@ -835,7 +834,7 @@ export default function ToolbarPlugin(): JSX.Element {
               className="item">
               <i className="icon gif" />
               <span className="text">GIF</span>
-            </DropDownItem>
+            </DropDownItem> */}
             {/* <DropDownItem
               onClick={() => {
                 activeEditor.dispatchCommand(

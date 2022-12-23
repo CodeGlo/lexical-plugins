@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    // "jsx": "preserve",
+    "noEmit": false,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+  },
+  "include": ["src/**/*", "src/plugins/**/*"],
+  "exclude": ["node_modules" ],
+  "paths": {
+    "@/*": ["src/*"],
+    "@plugins/*": ["src/plugins/*"]
+  },
+  "ts-node": {
+    "esm": true
+}
+}

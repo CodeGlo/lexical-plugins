@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "../ai-content-creator"
+		},
+		{
+			"path": "../alignment-project-server"
+		},
+		{
+			"path": "../ai-podcast"
+		},
+		{
+			"path": "../react-editor-js"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.jsx": "javascriptreact"
+		}
+	}
+}

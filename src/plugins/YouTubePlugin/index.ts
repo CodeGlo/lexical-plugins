@@ -39,3 +39,8 @@ export default function YouTubePlugin(): JSX.Element | null {
 
   return null;
 }
+
+module.exports = {
+  default: YouTubePlugin,
+  INSERT_YOUTUBE_COMMAND,
+};

@@ -12,8 +12,6 @@ import './index.css';
 import * as React from 'react';
 import {createRoot} from 'react-dom/client';
 
-import App from './App';
-
 // Handle runtime errors
 const showErrorOverlay = (err: Event) => {
   const ErrorOverlay = customElements.get('vite-error-overlay');
@@ -34,6 +32,6 @@ window.addEventListener('unhandledrejection', ({reason}) =>
 
 createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
   </React.StrictMode>,
 );

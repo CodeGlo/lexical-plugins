@@ -22,7 +22,7 @@ import * as React from 'react';
 import {useEffect, useRef} from 'react';
 import useLayoutEffect from '../shared/useLayoutEffect';
 
-import {createWebsocketProvider} from '../collaboration';
+import {createWebsocketProvider} from '../app/collaboration';
 import {useSharedHistoryContext} from '../context/SharedHistoryContext';
 import StickyEditorTheme from '../themes/StickyEditorTheme';
 import ContentEditable from '../ui/ContentEditable';
